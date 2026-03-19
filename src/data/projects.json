@@ -6,7 +6,15 @@
 		"summary": "（个人）日常工作辅助系统，包含域名证书过期检测，前端项目一键部署、回滚功能、服务器管理。实现验证码+2FA登录验证以及细粒度接口、页面权限控制（精确到按钮级）。",
 		"description": "**日常运维辅助平台（全栈项目）**\n- 设计并开发一套面向团队的运维辅助系统，提升日常部署与资产管理效率\n- 实现**域名证书到期监控**，支持自动检测与提醒，降低证书过期风险\n- 构建前端项目**一键部署与快速回滚机制**，显著提升上线效率与故障恢复能力\n- 提供**服务器管理模块**，支持多节点管理与状态维护\n- 实现基于**验证码 + 2FA 双重认证机制**的安全登录体系，增强系统安全性\n- 设计完善的**权限控制模型**，支持菜单级、接口级及按钮级细粒度权限管理\n- 系统具备良好的扩展性与可维护性，适用于中小团队运维场景",
 		"tags": ["日常工作", "辅助工具"],
-		"techStack": ["React", "Antd", "UmiJS", "Fastify","Prisma", "MySQL", "Redis"],
+		"techStack": [
+			"React",
+			"Antd",
+			"UmiJS",
+			"Fastify",
+			"Prisma",
+			"MySQL",
+			"Redis"
+		],
 		"githubUrl": "https://github.com/pengluaa/playlet-source-web",
 		"liveUrl": "",
 		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/cover.jpg",
@@ -27,7 +35,7 @@
 		"slug": "my-project-website",
 		"summary": "基于 Astro + TypeScript 构建的现代化个人简历网站，支持 Markdown 项目详情页，部署于 Vercel。",
 		"description": "这是本网站用 Astro 静态框架和 TypeScript 搭建的个人简历站点。采用纯 JSON 驱动项目数据，支持 MDX 格式的项目详情页，并通过 Vercel 实现零配置部署。\n\n## 技术亮点\n\n- **Astro Islands 架构**：按需加载交互组件，首屏极速渲染\n- **TypeScript 全量类型安全**：数据结构与组件 Props 均有完整类型定义\n- **MDX 支持**：项目详情页混合 Markdown 与自定义组件\n- **响应式设计**：适配移动端、平板、桌面",
-		"tags": ["日常工作", "辅助工具"],
+		"tags": ["Astro", "TypeScript", "Vercel", "MDX"],
 		"techStack": ["Astro", "TypeScript", "MDX", "Vercel"],
 		"githubUrl": "https://github.com/pengluaa/my-project-website",
 		"liveUrl": "https://my-project-website-cyan.vercel.app",
@@ -36,7 +44,7 @@
 		"featured": false,
 		"status": "active",
 		"startDate": "2026-03",
-		"endDate": ""
+		"endDate": null
 	},
 	{
 		"id": "video-dl-electron",
