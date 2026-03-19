@@ -22,6 +22,23 @@
 		"endDate": ""
 	},
 	{
+		"id": "my-project-website",
+		"title": "个人项目主页",
+		"slug": "my-project-website",
+		"summary": "基于 Astro + TypeScript 构建的现代化个人简历网站，支持 Markdown 项目详情页，部署于 Vercel。",
+		"description": "这是本网站用 Astro 静态框架和 TypeScript 搭建的个人简历站点。采用纯 JSON 驱动项目数据，支持 MDX 格式的项目详情页，并通过 Vercel 实现零配置部署。\n\n## 技术亮点\n\n- **Astro Islands 架构**：按需加载交互组件，首屏极速渲染\n- **TypeScript 全量类型安全**：数据结构与组件 Props 均有完整类型定义\n- **MDX 支持**：项目详情页混合 Markdown 与自定义组件\n- **响应式设计**：适配移动端、平板、桌面",
+		"tags": ["日常工作", "辅助工具"],
+		"techStack": ["Astro", "TypeScript", "MDX", "Vercel"],
+		"githubUrl": "https://github.com/pengluaa/my-project-website",
+		"liveUrl": "https://my-project-website-cyan.vercel.app",
+		"coverImage": null,
+		"images": [],
+		"featured": false,
+		"status": "active",
+		"startDate": "2026-03",
+		"endDate": ""
+	},
+	{
 		"id": "video-dl-electron",
 		"title": "视频下载器",
 		"slug": "video-dl-electron",
