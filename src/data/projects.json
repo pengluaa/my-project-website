@@ -1,0 +1,129 @@
+[
+	{
+		"id": "work-tool",
+		"title": "辅助工作系统",
+		"slug": "work-tool",
+		"summary": "（个人）日常工作辅助系统，包含域名证书过期检测，前端项目一键部署、回滚功能、服务器管理。实现验证码+2FA登录验证以及细粒度接口、页面权限控制（精确到按钮级）。",
+		"description": "**日常运维辅助平台（全栈项目）**\n- 设计并开发一套面向团队的运维辅助系统，提升日常部署与资产管理效率\n- 实现**域名证书到期监控**，支持自动检测与提醒，降低证书过期风险\n- 构建前端项目**一键部署与快速回滚机制**，显著提升上线效率与故障恢复能力\n- 提供**服务器管理模块**，支持多节点管理与状态维护\n- 实现基于**验证码 + 2FA 双重认证机制**的安全登录体系，增强系统安全性\n- 设计完善的**权限控制模型**，支持菜单级、接口级及按钮级细粒度权限管理\n- 系统具备良好的扩展性与可维护性，适用于中小团队运维场景",
+		"tags": ["日常工作", "辅助工具"],
+		"techStack": ["React", "Antd", "UmiJS", "Fastify","Prisma", "MySQL", "Redis"],
+		"githubUrl": "https://github.com/pengluaa/playlet-source-web",
+		"liveUrl": "",
+		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/cover.jpg",
+		"images": [
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/cover.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/1.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/2.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/playlet-source/3.jpg"
+		],
+		"featured": true,
+		"status": "active",
+		"startDate": "2025-08",
+		"endDate": ""
+	},
+	{
+		"id": "video-dl-electron",
+		"title": "视频下载器",
+		"slug": "video-dl-electron",
+		"summary": "已完成bilibili视频下载。解决了传统下载器对bilibili合集、分P视频下载管理混乱问题，采用合集、分P进行分组便于管理和查看。",
+		"description": "video-dl-electron 是一个基于 Electron 构建的跨平台视频下载工具，提供简洁直观的图形界面，帮助用户快速下载来自多种主流视频网站的音视频资源。\n\n项目通过封装底层下载能力，将复杂的命令行操作转化为易用的可视化流程，支持多格式选择、清晰度配置以及批量下载等功能，兼顾效率与易用性。\n\n适用于希望在桌面端高效管理视频下载任务的用户，同时也是一个实践 Electron 应用架构与前后端协作的完整项目。",
+		"tags": ["video", "download", "bilibili"],
+		"techStack": ["Vue3", "Electron", "Node.js", "FFmpeg"],
+		"githubUrl": "https://github.com/pengluaa/video-dl-electron",
+		"liveUrl": null,
+		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/video-dl-electron/cover.jpg",
+		"images": [
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/video-dl-electron/1.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/video-dl-electron/1.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/video-dl-electron/3.jpg"
+		],
+		"featured": true,
+		"status": "completed",
+		"startDate": "2025-05",
+		"endDate": "2024-05"
+	},
+	{
+		"id": "2048-game",
+		"title": "2048-game",
+		"slug": "2048-game",
+		"summary": "基于 Astro 实现的2048小游戏。",
+		"description": "基于 Astro + HTML5 + JavaScript 实现经典 2048 游戏，完成核心玩法逻辑与交互设计。\n- 设计并实现棋盘数据结构与状态管理\n- 实现滑动合并算法，支持上下左右操作\n- 处理游戏胜负判断及分数计算逻辑\n- 优化移动端触控体验，适配多种屏幕尺寸\n- 提升性能与响应速度，保证流畅运行",
+		"tags": ["2048"],
+		"techStack": ["javascript", "Astro"],
+		"githubUrl": "https://github.com/pengluaa/2048-game",
+		"liveUrl": "https://2048-game-seven-indol.vercel.app",
+		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/2048-game/cover.png",
+		"images": [
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/2048-game/cover.png",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/2048-game/1.png"
+		],
+		"featured": true,
+		"status": "completed",
+		"startDate": "2023-08",
+		"endDate": "2022-08"
+	},
+	{
+		"id": "report-web",
+		"title": "web数据上报sdk",
+		"slug": "report-web",
+		"summary": "基于 Javascript 实现数据上报sdk，支持页面事件、点击事件、曝光事件收集。",
+		"description": "一个专为电商平台设计的 前端行为数据采集 SDK。它能够自动或通过简单的 API 采集用户在页面上的核心行为，包括页面浏览（PV/UV）、页面停留时长、元素点击（如商品、按钮、链接）、区域曝光（如商品卡片、广告位）等关键数据。SDK 体积小巧、无侵入性，支持自定义事件扩展。通过集成此 SDK，运营和数据分析团队可以轻松获得用户行为日志，为转化率优化、用户路径分析、个性化推荐等提供可靠的数据支撑，是构建电商数据闭环的基础设施。",
+		"tags": ["数据上报", "电商"],
+		"techStack": ["javascript"],
+		"githubUrl": "https://github.com/pengluaa/report-web",
+		"liveUrl": "",
+		"coverImage": "",
+		"images": [],
+		"featured": false,
+		"status": "completed",
+		"startDate": "2022-03",
+		"endDate": "2022-04"
+	},
+	{
+		"id": "q-chat",
+		"title": "聊天网站",
+		"slug": "q-chat",
+		"summary": "实现了一个支持单聊与群聊的即时通讯系统，具备新消息提醒和用户在线状态展示功能，提升了实时交互体验。",
+		"description": "这是一个个人项目，自行设计并开发了一个即时通讯聊天系统，支持一对一私聊及多人房间聊天两种通信模式。\n\n系统实现了实时消息收发机制，并集成新消息提醒功能，确保用户及时获取信息。同时，通过在线状态管理模块动态展示用户在线/离线状态，增强交互的即时性与可感知性。\n\n项目整体注重系统实时性与用户体验，具备良好的扩展性与稳定性。",
+		"tags": ["聊天", "机器人"],
+		"techStack": ["Vue", "Koa", "socket.io", "Node.js", "MySQL"],
+		"githubUrl": "https://github.com/pengluaa/q-chat",
+		"liveUrl": "",
+		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-chat/2.png",
+		"images": [
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-chat/2.png",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-chat/1.png"
+		],
+		"featured": true,
+		"status": "archived",
+		"startDate": "2019-06",
+		"endDate": "2019-07"
+	},
+	{
+		"id": "q-reader",
+		"title": "小说阅读",
+		"slug": "q-reader",
+		"summary": "基于微信小程序的小说阅读平台，支持阅读、搜索、收藏及用户登录功能，后端采用 Node.js + Koa，结合 MySQL 存储数据，并通过爬虫实现小说资源采集。",
+		"description": "个人第一款独立应用，熟悉了包括从小程序申请、服务器购买、域名申请到备案、服务器配置等流程。此项目采用前后端分离架构。\n\n前端基于微信小程序原生框架实现阅读与交互体验；后端使用 Node.js + Koa 构建 RESTful API，结合 MySQL 完成用户信息及小说数据的持久化存储。\n\n项目实现了用户登录认证、小说搜索、阅读与收藏等核心功能；同时基于爬虫技术对小说网站数据进行抓取与解析，实现小说资源的自动化采集与入库。通过接口封装与异步请求优化提升系统响应性能，并对关键数据进行缓存处理，提高整体用户体验。",
+		"tags": ["小程序", "小说阅读", "爬虫"],
+		"techStack": [
+			"weapp",
+			"javascript",
+			"Koa",
+			"Node.js",
+			"MySQL",
+			"RESTful API"
+		],
+		"githubUrl": "https://github.com/pengluaa/q-reader",
+		"liveUrl": "",
+		"coverImage": "https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-reader/1.jpg",
+		"images": [
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-reader/2.jpg",
+			"https://gvkowbjmfuaasi2e.public.blob.vercel-storage.com/screenshots/q-reader/1.jpg"
+		],
+		"featured": true,
+		"status": "archived",
+		"startDate": "2019-03",
+		"endDate": "2019-05"
+	}
+]

@@ -1,0 +1,57 @@
+---
+import profile from '../data/profile.json';
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">
+      © {year}  用 <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> 构建，部署于 <a href="https://vercel.com" target="_blank" rel="noopener">Vercel</a>
+    </p>
+    <div class="footer-links">
+      <a href={profile.github} target="_blank" rel="noopener">GitHub</a>
+      <a href={'mailto:' + profile.email}>邮件</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: 6rem;
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-copy {
+    font-size: 0.8125rem;
+    color: var(--muted);
+  }
+
+  .footer-copy a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-links a {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--muted);
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--ink); }
+</style>

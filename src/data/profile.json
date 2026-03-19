@@ -1,0 +1,51 @@
+{
+	"name": "WQS",
+	"title": "WEB前端工程师 & Node.js全栈工程师 & PHP",
+	"bio": "我热衷于将复杂问题转化为优雅的技术方案。喜欢逆向、反编译。过去八年专注于 Web 全栈开发。从事行业主要涉及网络云盘、电商、语聊、短视频。目前主要从事是海外短视频业务开发。",
+	"location": "中国，四川",
+	"email": "pengluaa@gmail.com",
+	"github": "https://github.com/pengluaa",
+	"avatar": "/images/avatar.png",
+	"skills": [
+		{
+			"category": "前端",
+			"items": [
+				"TypeScript",
+				"React",
+				"Vue",
+				"uni-app",
+				"Next.js",
+				"CSS / Tailwind"
+			]
+		},
+		{
+			"category": "后端",
+			"items": ["Node.js", "PHP", "MySQL", "Redis"]
+		},
+		{
+			"category": "基础设施",
+			"items": ["Docker", "Vercel", "Linux"]
+		}
+	],
+	"experience": [
+		{
+			"company": "新疆互联视通信息科技有限公司",
+			"role": "高级前端工程师",
+			"period": "2020 — 至今",
+			"description": "负责公司多业务线前端开发与架构设计，涵盖电商、语聊（音频直播）及海外短剧项目；主导电商系统核心功能重构与性能优化，提升系统稳定性与可扩展性；独立设计并开发数据埋点 SDK，完善数据采集与分析体系；参与音频直播与短剧业务的前端实现，保障多场景下的流畅用户体验。"
+		},
+		{
+			"company": "成都中创云讯科技有限公司",
+			"role": "WEB前端开发工程师",
+			"period": "2017 — 2019",
+			"description": "参与公司网盘项目整体重构由angularjs换成angular 4+，负责微信小程序版本网盘应用开发。"
+		}
+	],
+	"education": [
+		{
+			"school": "",
+			"degree": "本科（全日制）",
+			"period": "2013 — 2017"
+		}
+	]
+}
